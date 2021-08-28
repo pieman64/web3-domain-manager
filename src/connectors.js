@@ -18,6 +18,6 @@ export const walletconnect = new WalletConnectConnector({
 
 export const walletlink = new WalletLinkConnector({
   url: RPC_URLS[1],
-  appName: 'Web3 Domain Manager',
+  appName: 'UD NFTs Domain Manager',
   supportedChainIds: [1, 4]
 })
