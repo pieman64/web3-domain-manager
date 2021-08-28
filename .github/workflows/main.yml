@@ -38,7 +38,7 @@ jobs:
         with:
           github_token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./build
-          cname: web3domain.xyz
+          cname: 4ud.co
 
       - name: Upload dApp to IPFS
         uses: aquiladev/ipfs-action@v0.1.6-1
