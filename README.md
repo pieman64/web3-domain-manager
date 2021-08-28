@@ -27,4 +27,4 @@ Gnosis Safe has multiple environments:
  - Mainnet - https://gnosis-safe.io/app/
  - Rinkeby - https://rinkeby.gnosis-safe.io/app/
 
-Use latest [UD NFTs Domain Manager relase Gnosis Safe App version](https://github/pieman64/web3-domain-manager/releases/latest)
+Use latest [UD NFTs Domain Manager relase Gnosis Safe App version](https://github.com/pieman64/web3-domain-manager/releases/latest)
