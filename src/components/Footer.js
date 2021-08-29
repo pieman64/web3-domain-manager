@@ -12,7 +12,7 @@ const useStyles = makeStyles(() => ({
     boxShadow: 'none'
   },
   info: {
-    marginTop: 10
+    marginTop: 0
   }
 }));
 
@@ -24,16 +24,16 @@ export default function Footer() {
   return (
     <AppBar position='static' className={classes.footer}>
       <Typography color='textSecondary' variant='subtitle2' className={classes.info}>
-          This DApp uses the Ethereum blockchain as a datasource. It does not collect any user data or analytics.  
+        This DApp uses the Ethereum blockchain as a datasource. It does not collect any user data or analytics.  
       </Typography>
       <Typography color='textSecondary' variant='subtitle2'>
-          The best way to leave feedback for this fork is to star the project or create an issue on <Link href='//github.com/pieman64/web3-domain-manager' target='_blank' rel='noopener'>GitHub</Link>.  
+        The best way to leave feedback for this fork is to star the project or create an issue on <Link href='//github.com/pieman64/web3-domain-manager' target='_blank' rel='noopener'>GitHub</Link>.  
       </Typography>     
       <Typography color='textSecondary' variant='subtitle2' className={classes.info}>
-          Click <Link href='//unstoppabledomains.com/deadhead-collection' target='_blank' rel='noopener'>here</Link> to create your own awesome DeadHeads Gallery or <Link href='//unstoppabledomains.com' target='_blank' rel='noopener'>search</Link> for additional domains.  
+        Click <Link href='//unstoppabledomains.com/deadhead-collection' target='_blank' rel='noopener'>here</Link> to create your own awesome DeadHeads Gallery or <Link href='//unstoppabledomains.com' target='_blank' rel='noopener'>search</Link> for additional domains.  
       </Typography>
       <Typography color='textSecondary' variant='subtitle2' className={classes.info}>
-          Connect your wallet with the button top right to manage Unstoppable Domains on Ethereum.  
+        Connect your wallet with the button top right to manage Unstoppable Domains on Ethereum.  
       </Typography>
       text: '\n'
       {/*<img src="https://cdn.unstoppabledomains.com/TVCzy2cvXpEFX9bVqFnVdi80Tqk=/images/template/deadhead-gallery-preview.png" alt="DeadHeads"></img>;*/}  
