@@ -44,11 +44,13 @@ export default function Footer() {
   return (
     <AppBar position='static' className={classes.footer}>
       <Typography color='textSecondary' variant='subtitle2' className={classes.info}>
-        This open source project uses the Ethereum blockchain as a datasource. It does not collect any user's data or analytics.
+        This open source project uses the Ethereum blockchain as a datasource. It does not collect any user data or analytics.
       </Typography>
       <Typography color='textSecondary' variant='subtitle2'>
         The best way to leave feedback for this fork is to star the project or create an issue on <Link href='//github.com/pieman64/web3-domain-manager' target='_blank' rel='noopener'>GitHub</Link>.
       </Typography>
+        text: '\n'
+      {/*
       <Toolbar>
         <Link href='//github.com/pieman64/web3-domain-manager' target='_blank' rel='noopener'>
           <IconButton color='default' aria-label='GitHub repo' component='span'>
@@ -56,12 +58,16 @@ export default function Footer() {
           </IconButton>
         </Link>
       </Toolbar>
+      */}
       <img src={DHImage} alt="DeadHeads"/>;
-        <Typography color='textSecondary' variant='subtitle2' className={classes.info}>
-        Click <Link href='//unstoppabledomains.com/deadhead-collection' target='_blank' rel='noopener'>here</Link> to create your own awesome DeadHeads Gallery
+      <Typography color='textSecondary' variant='subtitle2' className={classes.info}>
+        Click <Link href='//unstoppabledomains.com/deadhead-collection' target='_blank' rel='noopener'>here</Link> to create your own awesome DeadHeads Gallery.
       </Typography>
       <Typography color='textSecondary' variant='subtitle2' className={classes.info}>
-        or connect your wallet with the button top right to manage any Unstoppable Domain on Ethereum.
+        Search for <Link href='//unstoppabledomains.com' target='_blank' rel='noopener'>additional domains</Link> with your favorite TLD
+      </Typography>
+      <Typography color='textSecondary' variant='subtitle2' className={classes.info}>
+        Connect your wallet with the button top right to manage an Unstoppable Domain on Ethereum.
       </Typography>
     </AppBar>
   );
