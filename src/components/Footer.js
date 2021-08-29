@@ -6,8 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import Link from '@material-ui/core/Link';
 import IconButton from '@material-ui/core/IconButton';
 import GitHubIcon from '@material-ui/icons/GitHub';
-
-import DHButton from './../images/dh_gallery.png';
+import DHImage from './../images/dh_gallery.png';
 
 const useStyles = makeStyles(() => ({
   footer: {
@@ -19,8 +18,27 @@ const useStyles = makeStyles(() => ({
     marginTop: 20
   }
 }));
+/*
+var win = window,
+  doc = document,
+  docElem = doc.documentElement,
+  body = doc.getElementsByTagName('body')[0],
+  x = win.innerWidth || docElem.clientWidth || body.clientWidth,
+  y = win.innerHeight|| docElem.clientHeight|| body.clientHeight;
+
+//alert(x + ' × ' + y);
+if (x > 720) {
+  alert('Large screen of ' + x + ' pixels wide'); 
+  //<img src={DHImage} alt="DeadHeads"/>
+} else {
+  alert('Small screen of ' + x + ' pixels wide'); 
+  //<img src={DHImage} alt="DeadHeads"/>   
+}
+*/
+
 
 export default function Footer() {
+
   const classes = useStyles();
 
   return (
@@ -29,7 +47,7 @@ export default function Footer() {
         This open source project uses the Ethereum blockchain as a datasource. It does not collect any user's data or analytics.
       </Typography>
       <Typography color='textSecondary' variant='subtitle2'>
-        The best ways to leave a feedback are star the project or create an issue on <Link href='//github.com/pieman64/web3-domain-manager' target='_blank' rel='noopener'>GitHub</Link>.
+        The best way to leave feedback for this fork is to star the project or create an issue on <Link href='//github.com/pieman64/web3-domain-manager' target='_blank' rel='noopener'>GitHub</Link>.
       </Typography>
       <Toolbar>
         <Link href='//github.com/pieman64/web3-domain-manager' target='_blank' rel='noopener'>
@@ -38,7 +56,7 @@ export default function Footer() {
           </IconButton>
         </Link>
       </Toolbar>
-        <img src={DHButton} alt="DeadHeads" />;
+      <img src={DHImage} alt="DeadHeads"/>;
         <Typography color='textSecondary' variant='subtitle2' className={classes.info}>
         Click <Link href='//unstoppabledomains.com/deadhead-collection' target='_blank' rel='noopener'>here</Link> to create your own awesome DeadHeads Gallery
       </Typography>
