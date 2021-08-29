@@ -31,7 +31,7 @@ export default function Footer() {
       </Typography>
         text: '\n'
         {/*<img src="https://cdn.unstoppabledomains.com/TVCzy2cvXpEFX9bVqFnVdi80Tqk=/images/template/deadhead-gallery-preview.png" alt="DeadHeads"></img>;*/}
-      <img src={DHImage} alt="DeadHeads" width='70%'/>;
+      <img src={DHImage} alt="DeadHeads" width='98%'/>;
       <Typography color='textSecondary' variant='subtitle2' className={classes.info}>
         Click <Link href='//unstoppabledomains.com/deadhead-collection' target='_blank' rel='noopener'>here</Link> to create your own awesome DeadHeads Gallery.
       </Typography>
